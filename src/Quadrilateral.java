@@ -19,10 +19,7 @@ class Quadrilateral extends Figure {
                                 - ( d.getX()-a.getX() ) *( b.getY()-a.getY() ))));
     }
 
-    @Override
-    public double area() {
-        return 0; // todo
-    }
+
 
     @Override
     public String pointsToString() {
