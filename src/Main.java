@@ -15,8 +15,8 @@ public class Main {
         Point pb = new Point(0,0);
         Point pc = new Point(0,4);
         Point pd = new Point(3,4);
-        Quadrilateral qr = new Quadrilateral((pa,pb,pc,pd));
-        double are =qr.areaq();
+        Quadrilateral qr = new Quadrilateral(pa,pb,pc,pd);
+        double are =qr.area();
         System.out.println(are);
     }
 }

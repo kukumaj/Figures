@@ -10,7 +10,7 @@ class Quadrilateral extends Figure {
         this.c = c;
         this.d = d;
     }
-    public double areaq() {
+    public double area() {
         return Math.abs(0.5 *
                 (( ( b.getX()-a.getX() ) *( c.getY()-a.getY() )
                         - ( c.getX()-a.getX() ) *( b.getY()-a.getY() ))))+
@@ -20,7 +20,7 @@ class Quadrilateral extends Figure {
     }
 
     @Override
-    public double areaq() {
+    public double area() {
         return 0; // todo
     }
 
