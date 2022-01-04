@@ -34,5 +34,4 @@ class Quadrilateral extends Figure {
     @Override
     public String toString() {
         return Figure.figureToString("Quadrilateral", a, b, c, d);
-    }
-}
+    }}

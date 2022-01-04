@@ -1,4 +1,3 @@
-
 class Triangle extends Figure {
     private final Point a;
     private final Point b;
@@ -13,7 +12,7 @@ class Triangle extends Figure {
     public double area() {
         return Math.abs(0.5 *
                 (( ( b.getX()-a.getX() ) *( c.getY()-a.getY() )
-                  - ( c.getX()-a.getX() ) *( b.getY()-a.getY() ))));
+                        - ( c.getX()-a.getX() ) *( b.getY()-a.getY() ))));
     }
 
     @Override
