@@ -3,7 +3,7 @@ public class Main {
         Point p1 = new Point(1, 1);
         Point p2 = new Point(-2, 2);
         Point p3 = new Point(-1, -1);
-        
+        //ok
         Triangle tr = new Triangle(p1, p2, p3);
         double area = tr.area();
         System.out.println(area);
