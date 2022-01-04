@@ -12,11 +12,11 @@ class Quadrilateral extends Figure {
     }
     public double area() {
         return Math.abs(0.5 *
-                (( ( b.getX()-a.getX() ) *( c.getY()-a.getY() )
-                        - ( c.getX()-a.getX() ) *( b.getY()-a.getY() ))))+
+                (( ( c.getX()-a.getX() ) *( d.getY()-a.getY() )
+                        - ( d.getX()-a.getX() ) *( c.getY()-a.getY() ))))+
                 Math.abs(0.5 *
-                        (( ( b.getX()-a.getX() ) *( d.getY()-a.getY() )
-                                - ( d.getX()-a.getX() ) *( b.getY()-a.getY() ))));
+                        (( ( c.getX()-a.getX() ) *( b.getY()-a.getY() )
+                                - ( b.getX()-a.getX() ) *( c.getY()-a.getY() ))));
     }
 
 

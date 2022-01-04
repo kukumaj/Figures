@@ -1,8 +1,8 @@
-import java.util.Collections;
+
 
 class Point {
-    private final double x;
-    private final double y;
+    private  double x;
+    private  double y;
 
     public Point(final double x, final double y) {
         this.x = x;
